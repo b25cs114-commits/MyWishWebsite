@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Wish Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- WELCOME PAGE -->
+
+    <div id="loginPage">
+
+        <div class="welcome-content">
+
+            <h1>Welcome ♡</h1>
+
+            <p>
+                This website was made specially for you.
+            </p>
+
+            <div class="heart-line">
+                ─────────❤️─────────
+            </div>
+
+            <h2>
+                Enter your Date of Birth
+            </h2>
+
+            <input
+                type="date"
+                id="dob"
+            >
+
+            <br><br>
+
+            <button onclick="checkDOB()">
+                Open My Wish ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- LETTER PAGE -->
+
+    <div id="wishPage">
+
+        <div class="letter">
+
+            <div class="photo-container">
+
+                <img
+                    id="personPhoto"
+                    src=""
+                    alt="Special Photo"
+                >
+
+            </div>
+
+            <div class="wish-content">
+
+                <h1 id="wishTitle">
+                    Your Letter
+                </h1>
+
+                <h2 id="personName">
+                    Dear Special Person
+                </h2>
+
+                <p id="wishMessage">
+                    Your message will appear here.
+                </p>
+
+                <p id="wishMessage2">
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- MUSIC -->
+
+    <audio id="personMusic" loop></audio>
+
+
+    <script src="people.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
